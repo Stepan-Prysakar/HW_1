@@ -8,4 +8,4 @@ def get_numbers_ticket(min, max, quantity):
     else:
         return [] # вивід при невідповідності вхідних параметрів
 
-print("Ваші лотерейні числа:", get_numbers_ticket(5, 40, 10))
+print("Ваші лотерейні числа:", get_numbers_ticket(3, 40, 10))
