@@ -15,5 +15,5 @@ def normalize_phone(phone_number):
         number = '+38' + number
         return number
 
-raw_numbers = "38050 111 22 11   "
+raw_numbers = "38050 111 22 11  "
 print(normalize_phone(raw_numbers))
